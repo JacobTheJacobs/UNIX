@@ -1,0 +1,51 @@
+question 1
+Identify the arguments (if any) in the following commands:
+A. cal08 2013
+B. date
+third. finger cohen
+D. who
+
+Question 2
+What is the difference between password and passwd?
+passwd - update user credentials
+password - There is no such command
+Question 3
+What does the Unix prompt indicate?
+That the system is ready to receive commands from the user
+Question 4
+What is the order to find the day of the week, on September 21, 2005?
+cal21 9 2005
+Question 5
+Execute a command who. Record results.
+Will show the users entering the system at that moment
+
+Question 6
+Execute $ who I am; date. Is there a difference in the times that appear on the screen? Why?
+Yes, first time is the time to connect to the system and second time is the current time within the system
+
+2
+
+Question 7.
+Execute a finger command. What is the result of executing the command? Why?
+We are notified that we are not authorized to use this operation.
+[user4639 @ localhost ~] $ la / usr / bin | grip finger
+-rwxr-xr--. 1 root root 28K Aug 29 2014 finger
+Our account does not have execute permission for this file.
+
+Question 8.
+1. Execute cal command.
+2. Follow command cal 7 2012. What did you get? What is the difference between executing a cal command with parameters and without parameters?
+With parameters we can select the desired date and without parameters it selects the current date in the system.
+3. Register an order to display a calendar for the month of May 2013
+cal 5 2013
+4. Write an order to display a calendar for 2015
+cal 2015
+Question 9.
+Execute command man. What did you get? Why?
+Output: What manual page do you want?
+You need to pass a command name to get information on how to use it.
+2. Execute man cal command. Is this different from the results of section 1?
+Yes
+
+3. Command man –k cal. What have you got now? Why?
+All commands and their short description which either command name or its short description contains the sequence of letters cal
